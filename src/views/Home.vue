@@ -14,7 +14,7 @@
     
     <DropZone @drop.prevent="drop" @change="selectedFile"/>
     
-    <span class="file-info"> File: {{dropzoneFile.name}}</span>
+    <span class="file-info"> Filename: {{dropzoneFile.name}}</span>
   </div>
 </template>
 
@@ -63,7 +63,6 @@ export default{
     margin-top: 32px;
 
   }
-
 }
 
 .wrap {

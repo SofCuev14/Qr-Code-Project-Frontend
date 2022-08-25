@@ -51,6 +51,17 @@ h3 {
   border: 2px dashed #000000;
   background-color: #FFFFFF;
   transition: 0.3s ease all;
+
+  label {
+    padding: 8px 12px;
+    color: #FFFFFF;
+    background-color: #41b883;
+    transition: 0.3s ease all;
+  }
+
+  input {
+    display: none;
+  }
 }
 .active-dropzone{
   color: #fff;
